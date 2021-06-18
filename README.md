@@ -28,14 +28,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+forEach and map are both array methods that iterate through an array. forEach does NOT automatically return a new array while map DOES return a new array. Neither method mutates the original array. While forEach has an optional return statement, map needs the return keyword. forEach is used to preview data while map is used in converting data.
 
 2. Explain the difference between a callback and a higher order function.
+Higher Order functions receive other functions (callback functions) as data. And callback functions are passed into higher order functions as arguments.
 
 3. Can you explain what a closure is and how you used it in the counter function? 
+A closure occurs when a function reaches into its outward scope to obtain a variable.
 
 4. Describe the four principles of the 'this' keyword.
+    1. Window: if none of the other rules apply 'this' defaults to the global window
+    2. Implicit: used with object methods - look to the left of the dot (that's what 'this' is referring to)
+    3. Explicit: This binding explicitly bind 'this' by using apply, bind, call
+    4. New: When a function is invoked as a constructor function this points to the newly created object 
 
 5. Why do we need super() in an extended class?
+Super is used to access and call functions on an object's parent. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
